@@ -1,0 +1,27 @@
+{
+  "name": "test-for-mojalal",
+  "version": "1.0.0",
+  "description": "Test for mojalal interview",
+  "main": "./build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "nodemon build/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "author": "Shahrad J. Shakib",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3",
+    "socket.io": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.6.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
